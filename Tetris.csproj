@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Background.png" />
+    <None Remove="Assets\black.jpg" />
+    <None Remove="Assets\BlockI.png" />
+    <None Remove="Assets\BlockJ.png" />
+    <None Remove="Assets\BlockL.png" />
+    <None Remove="Assets\blockO.png" />
+    <None Remove="Assets\BlockS.png" />
+    <None Remove="Assets\BlockT.png" />
+    <None Remove="Assets\BlockZ.png" />
+    <None Remove="Assets\miniI.png" />
+    <None Remove="Assets\miniJ.png" />
+    <None Remove="Assets\miniL.png" />
+    <None Remove="Assets\miniO.png" />
+    <None Remove="Assets\miniS.png" />
+    <None Remove="Assets\miniT.png" />
+    <None Remove="Assets\miniZ.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Background.png" />
+    <Content Include="Assets\black.jpg" />
+    <Content Include="Assets\BlockI.png" />
+    <Content Include="Assets\BlockJ.png" />
+    <Content Include="Assets\BlockL.png" />
+    <Content Include="Assets\blockO.png" />
+    <Content Include="Assets\BlockS.png" />
+    <Content Include="Assets\BlockT.png" />
+    <Content Include="Assets\BlockZ.png" />
+    <Content Include="Assets\miniI.png" />
+    <Content Include="Assets\miniJ.png" />
+    <Content Include="Assets\miniL.png" />
+    <Content Include="Assets\miniO.png" />
+    <Content Include="Assets\miniS.png" />
+    <Content Include="Assets\miniT.png" />
+    <Content Include="Assets\miniZ.png" />
+  </ItemGroup>
+
+</Project>
